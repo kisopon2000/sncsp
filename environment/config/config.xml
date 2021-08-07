@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <!-- 整数生成プロセス数 -->
+  <counter_num>2</counter_num>
+
+  <!-- 整数生成プロセスのスレッド数 -->
+  <thread_num>3</thread_num>
+
+  <!-- ランダムな整数の最小値/最大値 -->
+  <min_num>0</min_num>
+  <max_num>9</max_num>
+
+  <!-- 整数生成プロセスの実行間隔 -->
+  <counter_interval>10</counter_interval>
+
+  <!-- 集計プロセスの実行間隔 -->
+  <collector_interval>1000</collector_interval>
+
+  <!-- テスト用 -->
+  <debug>
+    <!-- 有効/無効 -->
+    <enable>false</enable>
+
+    <!-- [テスト用] テスト結果ファイル出力先 -->
+    <output>C:\test</output>
+  </debug>
+</config>
